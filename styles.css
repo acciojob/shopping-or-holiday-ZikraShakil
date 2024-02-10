@@ -1,2 +1,20 @@
 
 /* Your CSS Code here. */
+/* Style for the ordered list */
+ol {
+  margin-left: 20px; /* Add some margin to the left */
+}
+
+/* Style for the unordered list */
+ul {
+  list-style-type: square; /* Use square bullets */
+}
+
+/* Style for list items with data-ns-test attribute */
+li[data-ns-test="shoppingList"] {
+  color: blue; /* Change text color for shopping list items */
+}
+
+li[data-ns-test="holidayList"] {
+  color: green; /* Change text color for holiday list items */
+}
